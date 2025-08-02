@@ -1,0 +1,52 @@
+@import 'tailwindcss';
+@plugin "daisyui";
+@source "../node_modules/simplesvelte";
+
+html {
+	scroll-behavior: smooth;
+}
+
+html,
+body {
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+	background-color: var(--color-base-200);
+}
+
+/* Custom gradient backgrounds */
+.bg-pink-25 {
+	background: linear-gradient(135deg, #fdf2f8 0%, #fce7f3 100%);
+}
+
+/* Animation for hero section */
+.hero-content {
+	animation: fadeInUp 1s ease-out;
+}
+
+@keyframes fadeInUp {
+	from {
+		opacity: 0;
+		transform: translateY(30px);
+	}
+	to {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
+
+/* Card hover effects */
+.card:hover {
+	transform: translateY(-4px);
+	transition: transform 0.3s ease;
+}
+
+/* Calendar day hover effects */
+.calendar-day {
+	transition: all 0.2s ease;
+}
+
+/* Button loading animation */
+.btn:active {
+	transform: scale(0.98);
+}
