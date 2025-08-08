@@ -7,7 +7,7 @@
 				<div class="text-lg text-pink-600 italic">✨ Enhancing Your Natural Beauty ✨</div>
 			</div>
 			<p class="py-6 text-gray-700">
-				Professional classic lash extensions in the comfort of your home. Serving the Boise area with personalized,
+				Professional classic lash extensions in a comfortable home studio. Serving the Boise area with personalized,
 				luxurious lash services.
 			</p>
 			<div class="space-y-4">
@@ -22,12 +22,15 @@
 <!-- Services Section -->
 <section id="services" class="bg-base-100 py-16">
 	<div class="container mx-auto px-4">
-		<h2 class="mb-12 text-center text-3xl font-bold text-pink-800">Our Services</h2>
+		<h2 class="mb-8 text-center text-3xl font-bold text-pink-800">Our Services</h2>
+		<p class="mb-12 text-center text-gray-600">
+			Currently specializing in professional lash extensions. Additional services may be offered in the future.
+		</p>
 		<div class="grid gap-8 md:grid-cols-3">
 			<div class="card bg-pink-50 shadow-xl">
 				<div class="card-body text-center">
 					<div class="mb-4 text-4xl">👁️</div>
-					<h3 class="card-title justify-center text-pink-700">Classic Extensions</h3>
+					<h3 class="card-title justify-center text-pink-700">Classic Lash Extensions</h3>
 					<p class="text-gray-600">
 						Individual lashes applied one-to-one for a natural, elegant look that enhances your eyes beautifully.
 					</p>
@@ -37,17 +40,19 @@
 			<div class="card bg-pink-50 shadow-xl">
 				<div class="card-body text-center">
 					<div class="mb-4 text-4xl">🏠</div>
-					<h3 class="card-title justify-center text-pink-700">At-Home Service</h3>
-					<p class="text-gray-600">Enjoy professional lash services in the comfort and privacy of your own home.</p>
+					<h3 class="card-title justify-center text-pink-700">Home Studio Service</h3>
+					<p class="text-gray-600">
+						Professional lash extension services in a comfortable, private home studio setting.
+					</p>
 					<div class="font-semibold text-pink-600">Convenience</div>
 				</div>
 			</div>
 			<div class="card bg-pink-50 shadow-xl">
 				<div class="card-body text-center">
 					<div class="mb-4 text-4xl">💖</div>
-					<h3 class="card-title justify-center text-pink-700">Personalized Care</h3>
+					<h3 class="card-title justify-center text-pink-700">Personalized Lash Design</h3>
 					<p class="text-gray-600">
-						Customized lash designs tailored to your eye shape and personal style preferences.
+						Customized lash extension designs tailored to your eye shape and personal style preferences.
 					</p>
 					<div class="font-semibold text-pink-600">Individual</div>
 				</div>
@@ -90,125 +95,6 @@
 	</div>
 </section>
 
-<!-- Booking Calendar Section -->
-<section id="booking" class="bg-base-100 py-16">
-	<div class="container mx-auto px-4">
-		<h2 class="mb-12 text-center text-3xl font-bold text-pink-800">Available Appointments</h2>
-		<div class="mx-auto max-w-6xl">
-			<!-- Week Navigation -->
-			<div class="mb-6 flex items-center justify-between">
-				<button class="btn btn-outline btn-sm text-pink-600 hover:bg-pink-100">← Previous Week</button>
-				<h3 class="text-lg font-semibold text-pink-700">August 4-10, 2025</h3>
-				<button class="btn btn-outline btn-sm text-pink-600 hover:bg-pink-100">Next Week →</button>
-			</div>
-
-			<!-- Weekly Calendar Table -->
-			<div class="overflow-x-auto rounded-lg bg-white shadow-lg">
-				<table class="table w-full">
-					<thead class="bg-pink-100">
-						<tr>
-							<th class="text-pink-800">Time</th>
-							<th class="text-center text-pink-800">Sun 4</th>
-							<th class="text-center text-pink-800">Mon 5</th>
-							<th class="text-center text-pink-800">Tue 6</th>
-							<th class="text-center text-pink-800">Wed 7</th>
-							<th class="text-center text-pink-800">Thu 8</th>
-							<th class="text-center text-pink-800">Fri 9</th>
-							<th class="text-center text-pink-800">Sat 10</th>
-						</tr>
-					</thead>
-					<tbody>
-						<!-- 10:00 AM Row -->
-						<tr class="hover:bg-pink-25">
-							<td class="font-medium text-gray-700">10:00 AM</td>
-							<td class="text-center">
-								<button class="btn btn-sm w-full cursor-not-allowed bg-gray-100 text-gray-400" disabled
-									>Unavailable</button>
-							</td>
-							<td class="text-center">
-								<button class="btn btn-sm w-full border-pink-200 bg-pink-100 text-pink-700 hover:bg-pink-200"
-									>Available</button>
-							</td>
-							<td class="text-center">
-								<button class="btn btn-sm w-full border-green-200 bg-green-100 text-green-700 hover:bg-green-200"
-									>✓ Recommended</button>
-							</td>
-							<td class="text-center">
-								<button class="btn btn-sm w-full border-pink-200 bg-pink-100 text-pink-700 hover:bg-pink-200"
-									>Available</button>
-							</td>
-							<td class="text-center">
-								<button class="btn btn-sm w-full border-pink-200 bg-pink-100 text-pink-700 hover:bg-pink-200"
-									>Available</button>
-							</td>
-							<td class="text-center">
-								<button class="btn btn-sm w-full border-green-200 bg-green-100 text-green-700 hover:bg-green-200"
-									>✓ Recommended</button>
-							</td>
-							<td class="text-center">
-								<button class="btn btn-sm w-full border-pink-200 bg-pink-100 text-pink-700 hover:bg-pink-200"
-									>Available</button>
-							</td>
-						</tr>
-
-						<!-- 2:00 PM Row -->
-						<tr class="hover:bg-pink-25">
-							<td class="font-medium text-gray-700">2:00 PM</td>
-							<td class="text-center">
-								<button class="btn btn-sm w-full border-pink-200 bg-pink-100 text-pink-700 hover:bg-pink-200"
-									>Available</button>
-							</td>
-							<td class="text-center">
-								<button class="btn btn-sm w-full cursor-not-allowed bg-gray-100 text-gray-400" disabled
-									>Unavailable</button>
-							</td>
-							<td class="text-center">
-								<button class="btn btn-sm w-full border-pink-200 bg-pink-100 text-pink-700 hover:bg-pink-200"
-									>Available</button>
-							</td>
-							<td class="text-center">
-								<button class="btn btn-sm w-full cursor-not-allowed bg-gray-100 text-gray-400" disabled
-									>Unavailable</button>
-							</td>
-							<td class="text-center">
-								<button class="btn btn-sm w-full border-green-200 bg-green-100 text-green-700 hover:bg-green-200"
-									>✓ Recommended</button>
-							</td>
-							<td class="text-center">
-								<button class="btn btn-sm w-full border-pink-200 bg-pink-100 text-pink-700 hover:bg-pink-200"
-									>Available</button>
-							</td>
-							<td class="text-center">
-								<button class="btn btn-sm w-full border-pink-200 bg-pink-100 text-pink-700 hover:bg-pink-200"
-									>Available</button>
-							</td>
-						</tr>
-					</tbody>
-				</table>
-			</div>
-
-			<!-- Legend -->
-			<div class="mt-6 text-center">
-				<div class="flex justify-center space-x-6 text-sm">
-					<div class="flex items-center">
-						<div class="mr-2 h-4 w-4 rounded border border-pink-200 bg-pink-100"></div>
-						<span>Available</span>
-					</div>
-					<div class="flex items-center">
-						<div class="mr-2 h-4 w-4 rounded border border-green-200 bg-green-100"></div>
-						<span>Recommended</span>
-					</div>
-					<div class="flex items-center">
-						<div class="mr-2 h-4 w-4 rounded bg-gray-100"></div>
-						<span>Unavailable</span>
-					</div>
-				</div>
-				<p class="mt-4 text-gray-600">Click on any available time slot to book your appointment</p>
-			</div>
-		</div>
-	</div>
-</section>
-
 <!-- Policies Section -->
 <section class="bg-base-100 py-16">
 	<div class="container mx-auto px-4">
@@ -223,11 +109,11 @@
 					</h3>
 					<div class="space-y-2 text-gray-600">
 						<p class="font-semibold text-red-600">Non-refundable once service is completed</p>
-						<p class="text-sm">Issues requiring adjustment or emergency removal:</p>
+						<p class="text-sm">If there's an issue requiring adjustment or emergency removal:</p>
 						<ul class="ml-4 space-y-1 text-sm">
-							<li>• Must be reported within 48 hours</li>
+							<li>• Notify within the first 48 hours</li>
 							<li>• Free adjustment available</li>
-							<li>• Rescheduling option provided</li>
+							<li>• Will schedule adjustment appointment</li>
 						</ul>
 					</div>
 				</div>
@@ -241,11 +127,12 @@
 						Appointment Policies
 					</h3>
 					<div class="space-y-2 text-sm text-gray-600">
-						<p>• Please arrive on time</p>
-						<p class="font-semibold text-orange-600">• 20+ minutes late = cancellation</p>
+						<p>• Please arrive on time for scheduled appointment</p>
+						<p class="font-semibold text-orange-600">• More than 20 minutes late = appointment canceled</p>
+						<p class="text-xs text-gray-500">(Policy may change in the future)</p>
 						<p>• 48 hours notice required for cancellations</p>
-						<p>• No guests unless pre-approved</p>
-						<p>• No guests under 18 in studio</p>
+						<p>• No guests unless approved</p>
+						<p>• No guests under 18 in the studio</p>
 					</div>
 				</div>
 			</div>
@@ -258,7 +145,7 @@
 						Payment Methods
 					</h3>
 					<div class="space-y-2 text-gray-600">
-						<p class="font-semibold">Currently accepting:</p>
+						<p class="font-semibold">Currently accepting payments only through:</p>
 						<div class="space-y-1 text-sm">
 							<div class="flex items-center space-x-2">
 								<span class="text-green-500">✓</span>
@@ -278,9 +165,7 @@
 			</div>
 		</div>
 		<div class="mt-8 text-center">
-			<a href="/pricing" class="btn border-pink-500 bg-pink-500 text-white hover:bg-pink-600">
-				View Complete Pricing & Policies
-			</a>
+			<div class="text-sm text-gray-600">All pricing and policies are listed above</div>
 		</div>
 	</div>
 </section>
@@ -290,13 +175,13 @@
 	<div class="container mx-auto px-4">
 		<div class="text-center text-white">
 			<h2 class="mb-6 text-4xl font-bold">Ready to Book Your Appointment?</h2>
-			<p class="mb-8 text-xl">Experience professional lash extensions in the comfort of your home</p>
+			<p class="mb-8 text-xl">Experience professional lash extensions in a comfortable home studio</p>
 
 			<div class="mb-8 grid gap-6 md:grid-cols-3">
 				<div class="rounded-lg bg-white/20 p-6">
 					<div class="mb-3 text-4xl">🏠</div>
-					<h3 class="mb-2 text-lg font-semibold">At-Home Service</h3>
-					<p class="text-sm opacity-90">Professional lash extensions in your comfortable space</p>
+					<h3 class="mb-2 text-lg font-semibold">Home Studio Service</h3>
+					<p class="text-sm opacity-90">Professional lash extensions in a comfortable studio setting</p>
 				</div>
 				<div class="rounded-lg bg-white/20 p-6">
 					<div class="mb-3 text-4xl">🧼</div>
@@ -325,59 +210,54 @@
 </section>
 
 <!-- Preparation Reminder -->
-<section class="bg-pink-50 py-16">
+<section class="bg-pink-50 py-16" id="appointment-prep">
 	<div class="container mx-auto px-4">
 		<div class="card bg-white shadow-xl">
 			<div class="card-body">
 				<h2 class="card-title mb-6 justify-center text-3xl text-pink-700">
 					<span class="text-4xl">📋</span>
-					Before Your Appointment
+					How to Prepare for Your Booked Appointment
 				</h2>
-				<div class="grid gap-6 md:grid-cols-2">
-					<div>
-						<h3 class="mb-4 text-lg font-semibold text-gray-800">How to Prepare:</h3>
-						<div class="space-y-2 text-gray-600">
-							<div class="flex items-center space-x-2">
-								<span class="text-green-500">✓</span>
-								<span>Come with a makeup-free face, freshly washed</span>
-							</div>
-							<div class="flex items-center space-x-2">
-								<span class="text-green-500">✓</span>
-								<span>No mascara, eyeliner, or eyeshadow</span>
-							</div>
-							<div class="flex items-center space-x-2">
-								<span class="text-green-500">✓</span>
-								<span>Remove contact lenses if needed</span>
-							</div>
-							<div class="flex items-center space-x-2">
-								<span class="text-green-500">✓</span>
-								<span>Dress comfortably</span>
-							</div>
-							<div class="flex items-center space-x-2">
-								<span class="text-green-500">✓</span>
-								<span>Have an idea of what style you want</span>
-							</div>
-							<div class="flex items-center space-x-2">
-								<span class="text-red-500">❌</span>
-								<span>No guests (unless pre-approved)</span>
+				<div class="mx-auto max-w-2xl">
+					<div class="space-y-4 text-gray-600">
+						<div class="flex items-start space-x-2">
+							<span class="mt-1 text-red-500">❌</span>
+							<span>No guests</span>
+						</div>
+						<div class="flex items-start space-x-2">
+							<span class="mt-1 text-green-500">✓</span>
+							<div>
+								<div>Arrive with clean, make-up free eyes</div>
+								<div class="mt-1 text-sm text-gray-500">
+									No mascara, eyeliner, or eyeshadow. Oils and residue can affect lash retention.
+								</div>
 							</div>
 						</div>
-					</div>
-					<div>
-						<h3 class="mb-4 text-lg font-semibold text-gray-800">Important Notes:</h3>
-						<div class="space-y-2 text-gray-600">
-							<p>• If feeling sick, please cancel/reschedule</p>
-							<p>• Oils and makeup residue affect lash retention</p>
-							<p>• Bring contact case and solution if needed</p>
-							<p>• Process takes 2-3 hours</p>
-							<p>• Includes complimentary lash wash</p>
+						<div class="flex items-start space-x-2">
+							<span class="mt-1 text-blue-500">👁️</span>
+							<div>
+								<div>Remove contact lenses if needed</div>
+								<div class="mt-1 text-sm text-gray-500">
+									If you wear contact lenses consider bringing a case and solution to remove them comfortably.
+								</div>
+							</div>
+						</div>
+						<div class="flex items-start space-x-2">
+							<span class="mt-1 text-orange-500">⚠️</span>
+							<span>If feeling sick, go to cancellations</span>
+						</div>
+						<div class="flex items-start space-x-2">
+							<span class="mt-1 text-green-500">✓</span>
+							<span>Dress comfortably</span>
+						</div>
+						<div class="flex items-start space-x-2">
+							<span class="mt-1 text-green-500">✓</span>
+							<span>Have an idea of what you want</span>
 						</div>
 					</div>
 				</div>
 				<div class="mt-6 text-center">
-					<a href="/appointment-prep" class="btn border-pink-500 bg-pink-500 text-white hover:bg-pink-600">
-						Complete Preparation Guide
-					</a>
+					<div class="text-sm text-gray-600">Service includes complimentary lash wash and takes 2-3 hours</div>
 				</div>
 			</div>
 		</div>
@@ -396,7 +276,7 @@
 					<div class="space-y-3">
 						<div class="flex items-center">
 							<div class="mr-3 text-pink-500">📍</div>
-							<span class="text-gray-700">Serving Boise Area (83704) - At-home service within 15 miles</span>
+							<span class="text-gray-700">Serving Boise Area (83704) - Home studio service within 15 miles</span>
 						</div>
 						<div class="flex items-center">
 							<div class="mr-3 text-pink-500">📞</div>
@@ -415,14 +295,12 @@
 				</div>
 
 				<div>
-					<h4 class="mb-2 font-semibold text-pink-700">Quick Links</h4>
+					<h4 class="mb-2 font-semibold text-pink-700">Services Available</h4>
 					<div class="space-y-2">
-						<div><a href="/cancel" class="text-gray-600 hover:text-pink-600">Cancel or Reschedule Appointment</a></div>
-						<div>
-							<a href="/appointment-prep" class="text-gray-600 hover:text-pink-600">Appointment Preparation Guide</a>
-						</div>
-						<div><a href="/reviews" class="text-gray-600 hover:text-pink-600">Read Client Reviews</a></div>
-						<div><a href="/gallery" class="text-gray-600 hover:text-pink-600">View Our Work</a></div>
+						<div class="text-gray-600">Classic Lash Extensions - $150</div>
+						<div class="text-gray-600">Complimentary Lash Wash Included</div>
+						<div class="text-gray-600">Home Studio Service in Boise Area</div>
+						<div class="text-gray-600">Custom Styling Available</div>
 					</div>
 				</div>
 			</div>
