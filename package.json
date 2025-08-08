@@ -21,7 +21,9 @@
 		"@sveltejs/kit": "^2.22.0",
 		"@sveltejs/vite-plugin-svelte": "^6.0.0",
 		"@tailwindcss/vite": "^4.0.0",
+		"@types/node": "^24.1.0",
 		"daisyui": "^5.0.50",
+		"drizzle-kit": "^0.31.4",
 		"eslint": "^9.18.0",
 		"eslint-config-prettier": "^10.0.1",
 		"eslint-plugin-svelte": "^3.0.0",
@@ -37,6 +39,9 @@
 		"vite": "^7.0.4"
 	},
 	"dependencies": {
-		"simplesvelte": "^1.1.20"
+		"dotenv": "^17.2.1",
+		"drizzle-orm": "^0.44.4",
+		"simplesvelte": "^1.1.20",
+		"zod": "^4.0.14"
 	}
 }

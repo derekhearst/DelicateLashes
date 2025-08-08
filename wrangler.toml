@@ -1,0 +1,8 @@
+name = "delicatelashes"
+compatibility_date = "2024-09-23"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "delicatelashes"
+database_id = "02e30f7b-8cb5-4fa1-a357-9b79f21754f0"
+migrations_dir = './drizzle'
